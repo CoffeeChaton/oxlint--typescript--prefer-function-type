@@ -1,0 +1,10 @@
+{
+    "$schema": "./node_modules/oxlint/configuration_schema.json",
+    "ignorePatterns": [
+        "node_modules"
+    ],
+    "rules": {
+        // https://oxc.rs/docs/guide/usage/linter/rules/typescript/prefer-function-type.html#typescript-prefer-function-type
+        "typescript/prefer-function-type": "error"
+    }
+}
